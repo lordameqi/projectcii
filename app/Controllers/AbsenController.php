@@ -8,7 +8,7 @@ class AbsenController extends Controller{
     public function index()
     {
         $model = new Absen();
-        $data['absen'] = $model->getAbsen();
+        $data['absen'] = $model->getSiswa();
         echo view('absen/index', $data);
     }
     public function createmasuk()

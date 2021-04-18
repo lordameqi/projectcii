@@ -66,7 +66,7 @@
                                         <?php foreach($absen as $key => $row){ ?>
                                         <tr>
                                             <td><?php echo $key + 1; ?></td>
-                                            <td><?php echo $row['id_siswa']; ?></td>
+                                            <td><?php echo $row['nama_siswa']; ?></td>
                                             <td><?php echo $row['masuk_tgl']; ?></td>
                                             <td><?php echo $row['masuk_jam']; ?></td>
                                             <td><?php echo $row['keluar_tgl']; ?></td>
